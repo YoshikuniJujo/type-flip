@@ -1,7 +1,7 @@
 {-# LANGUAGE FlexibleContexts #-}
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Type.Flip where
+module Data.Type.Flip where
 
 newtype Flip t a b = Flip { unflip :: t b a } deriving Show
 

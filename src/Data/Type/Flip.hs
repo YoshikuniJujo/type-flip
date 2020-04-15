@@ -20,3 +20,6 @@ m >>=% f = unflip $ Flip m >>= Flip . f
 
 (=<<%) :: Monad (Flip t c) => (a -> t b c) -> t a c -> t b c
 (=<<%) = flip (>>=%)
+
+fsequence :: (Applicative (Flip s c), Traversable t) => t (s a c) -> s (t a) c
+fsequence tf = unflip . sequenceA $ Flip <$> tf

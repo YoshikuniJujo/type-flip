@@ -26,3 +26,9 @@ infixr 1 =<<%
 
 (=<<%) :: Monad (Flip t c) => (a -> t b c) -> t a c -> t b c
 (=<<%) = flip (>>=%)
+
+ftraverse :: (Applicative (Flip s c), Traversable t) => (a -> s b c) -> t a -> s (t b) c
+ftraverse f t = unflip $ traverse (Flip . f) t
+
+fsequence :: (Applicative (Flip s c), Traversable t) => t (s a c) -> s (t a) c
+fsequence tf = unflip . sequenceA $ Flip <$> tf

@@ -1,19 +1,20 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.2.
+-- This file has been generated from package.yaml by hpack version 0.35.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f1ec7d4fe535d53bd4ef4ca9cd55914ef010b1d59f30e7954da2d6204d6acaaa
+-- hash: c0f44803f74add22aa0bb537e94694de4cc32d950abfbf2ad8d03fbe50e6fb75
 
 name:           type-flip
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/type-flip#readme>
-homepage:       https://github.com/githubuser/type-flip#readme
-bug-reports:    https://github.com/githubuser/type-flip/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+category:       Control
+homepage:       https://github.com/YoshikuniJujo/type-flip#readme
+bug-reports:    https://github.com/YoshikuniJujo/type-flip/issues
+author:         Yoshikuni Jujo
+maintainer:     yoshikuni.jujo@gmail.com
+copyright:      2020 Yoshikuni Jujo
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,7 +24,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/type-flip
+  location: https://github.com/YoshikuniJujo/type-flip
 
 library
   exposed-modules:

@@ -4,11 +4,11 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c0f44803f74add22aa0bb537e94694de4cc32d950abfbf2ad8d03fbe50e6fb75
+-- hash: 552302bd4575ffba96a279dac57a93dc75fc72e5a54e47c7dfccda4e55eaf04f
 
 name:           type-flip
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/type-flip#readme>
+description:    Please see the README on GitHub at <https://github.com/YoshikuniJujo/type-flip#readme>
 category:       Control
 homepage:       https://github.com/YoshikuniJujo/type-flip#readme
 bug-reports:    https://github.com/YoshikuniJujo/type-flip/issues
